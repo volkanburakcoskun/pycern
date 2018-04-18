@@ -1,5 +1,5 @@
 from libs.urllib2 import * #Url'e ulaþmak ve url'den dosya indirmek için kullandýðýmýz kütüphane.
-from PIL import ImageFile # Bunun çok gereði olmasa da,verilen web sitesindeki resimlerden bazýlarýnýn siteye eksik upload edilmesi sonucu eksik görüntülenmesi, pythonun bu resim dosyalarýný
+from libs.PIL import ImageFile # Bunun çok gereði olmasa da,verilen web sitesindeki resimlerden bazýlarýnýn siteye eksik upload edilmesi sonucu eksik görüntülenmesi, pythonun bu resim dosyalarýný
 #okuyamamasýndan dolayý bu tür dosyalarý okurken bunu görmezden gelmesini söyledik.
 from libs.img2pdf import* #Ýndirilen dosyalarý pdf e basarken kullandýðýmýz açýk kaynak kütüphane.
 sayi=0 #Bir sayaç belirledik 0.pngden baþlayýp 99.pngye kadar gitmesi için. Ýlk baþta 0 a eþitliyoruz
